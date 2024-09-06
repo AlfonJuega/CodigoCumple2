@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumpgle - Buscador de Códigos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Primera pantalla: el buscador -->
+    <div class="overlay" id="searchSection">
+        <img src="BimbaYoTeAmo.png" alt="Cumpgle" class="title-img">
+        <h2 class="subtitle">Tu buscador de códigos de confianza</h2>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Introduce una fecha (dd/mm/yyyy)">
+            <button onclick="buscarCodigo()">Buscar</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <!-- Segunda pantalla: código y mensaje -->
+    <div class="overlay" id="codeSection" style="display: none;">
+        <div class="code-container">
+            <h1 id="codigoDisplay"></h1>
+            <p class="message">¡Disfruta de tu regalo! Alfon te quiere</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

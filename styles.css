@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden; /* Para evitar desplazamientos indeseados */
+}
+
+.overlay {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Pantalla del buscador con fondocumple.jpg */
+#searchSection {
+    background: url('EresLaMejooor.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Nueva pantalla de código con fondocodigo.jpg */
+#codeSection {
+    background: url('BimbaYoTeQuierooo.jpg') no-repeat center center fixed;
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+}
+
+.title-img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Contenedor para mostrar el código y el mensaje */
+.code-container {
+    padding: 0;
+    border-radius: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+#codigoDisplay {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 24px;
+    margin-top: 10px;
+}
